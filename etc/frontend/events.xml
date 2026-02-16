@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright (c) 2026. Taurus. All rights reserved
+ */
+ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="layout_render_before">
+        <observer name="set-custom-html-lang" instance="Taurus\HtmlLang\Observer\SetCustomHtmlLang" />
+    </event>
+</config>
